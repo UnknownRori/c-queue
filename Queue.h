@@ -38,4 +38,6 @@ struct Queue
     int (*first)(Queue *Queue);
 };
 
+Queue *createQueue(int size);
+
 #endif
