@@ -36,6 +36,13 @@ struct Queue
      * @param Queue
      */
     int (*first)(Queue *Queue);
+
+    /**
+     * @brief Print the queue
+     *
+     * @param Queue
+     */
+    void (*print)(Queue *queue);
 };
 
 Queue *createQueue(int size);
